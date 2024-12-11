@@ -1,0 +1,107 @@
+/*FONT SECTION*/
+
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+/*DOCUMENT STYLING*/
+
+body { font-family: "Libre Baskerville", serif;
+  background-color:grey;}
+
+  .strokeme
+{
+    color: black;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+header{
+  background-color:darkgray;
+  padding: 30px;
+}
+.about-section {
+
+  color: gold;
+}
+.button {
+ background-color: gold;
+}
+.our-team {
+ color: blue;
+
+}
+
+img {
+  .widthSet {
+    max-width: 400px;
+}
+
+.heightSet {
+    max-height: 300px;
+}
+  max-width: 100%;
+  height: auto;
+}
+
+ .minispecimen {
+  padding: 45px;
+ }
+
+ .minispecimen h3{
+  text-align:center;
+ }
+
+h1{
+  border: solid;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  padding-right: 30px;
+  padding-top: 50px;
+ }
+ 
+h2{border: solid;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  padding-right: 30px;
+  padding-top: 50px;
+}
+
+h3{
+  
+  padding-bottom: 50px;
+  padding-left: 80px;
+  padding-right: 30px;
+  padding-top: 50px;
+}
+h4{
+  background-color:black;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  padding-right: 30px;
+  padding-top: 50px;
+}
+
+
+
+.libhistory:hover{
+  font-style: italic;
+}
